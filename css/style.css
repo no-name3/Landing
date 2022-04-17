@@ -1,0 +1,701 @@
+html,
+body{
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+@font-face {
+    font-family: Parangon530C;
+    src: url(../Parangon530C.ttf);
+}
+
+@font-face {
+    font-family: PTSans;
+    src: url(../PTSans.ttf);
+}
+
+@font-face {
+    font-family: tahoma;
+    src: url(../tahoma.ttf);
+}
+
+@font-face {
+    font-family: helveticaneuecyr;
+    src: url(../helveticaneuecyr.ttf);
+}
+
+@font-face {
+    font-family: helveticaneuecyr-roman;
+    src: url(../helveticaneuecyr-roman.ttf);
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url(../Exo2.otf);
+}
+
+@font-face {
+    font-family: System;
+    src: url(../System.ttf);
+}
+
+.ggg {
+    background-image: url(../img/notbook.jpg);
+    height: 735px;
+}
+
+.text {
+    text-align: center;
+    padding-top: 190px;
+}
+
+.emm {
+    font-family: Parangon530C;
+    color: #fff;
+    font-size: 43px;
+}
+
+.rmm {
+    padding: 25px 0 30px 0;
+    font-family: PTSans;
+    color: #fff;
+    font-size: 21px;
+}
+
+fieldset {
+    display: inline-block;
+    width: 225px;
+    height: 145px;
+    border: 1px #fff solid;
+    margin-right: 50px;
+}
+
+fieldset img {
+    margin: 6px 6px -6px 6px;
+}
+
+.for {
+    color: #fff;
+    font-size: 43px;
+    font-family: Parangon530C;
+    margin: 15px 0 -22px 0;
+}
+
+.lew {
+    font-family: PTSans;
+    color: #fff;
+    font-size: 16px;
+}
+
+.работы {
+    text-align: right;
+    border-bottom: 1px #adadad solid;
+}
+
+menu li {
+    display: inline;
+    padding-right: 15px;
+}
+
+menu a {
+    color: #000;
+    font-size: 20px;
+    font-family: Futura-Normal;
+}
+
+menu a:hover {
+    color: #f6ae48;
+}
+
+menu {
+    padding: 20px 90px 15px 0;
+}
+
+.всей {
+    color: #535353;
+    font-size: 18px;
+    font-family: PTSans;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+}
+
+.wel {
+    font-family: tahoma;
+    position: relative;
+    color: #c1c1c1;
+    font-size: 309px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Студия {
+    font-family: helveticaneuecyr;
+    display: inline-block;
+    position: absolute;
+    font-size: 42px;
+    top: 160px;
+    left: 115px;
+}
+
+.rre {
+    width: 1006px;
+    margin: 0 auto;
+}
+
+.rey {
+    position: relative;
+}
+
+.Lorem {
+    display: inline-grid;
+    margin: 50px 0 100px 200px;
+}
+
+.Lore {
+    display: inline-grid;
+}
+
+.Lor {
+    display: inline-grid;
+}
+
+.dds {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 6px 0 9px 10px;
+}
+
+.amet {
+    font-size: 13px;
+    font-family: Arial;
+    margin-left: 10px;
+    line-height: 18px;
+}
+
+.sit {
+    width: 345px;
+    height: 265px;
+}
+
+.sit:hover {
+    background-color: #f6ae48;
+    transition: all 0.5s ease;
+}
+
+.sit p:hover {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.sip {
+    width: 330px;
+    height: 262px;
+}
+
+.sip:hover {
+    background-color: #f6ae48;
+    transition: all 0.5s ease;
+}
+
+.sik {
+    width: 325px;
+    height: 262px;
+}
+
+.sik:hover {
+    background-color: #f6ae48;
+    transition: all 0.5s ease;
+}
+
+.lores:hover {
+    color: #fff;
+}
+
+.lores:hover i {
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.yoo:hover {
+    color: #fff;
+}
+
+.lores i {
+    font-size: 35px;
+    color: #00b9e7;
+    margin: 10px 0 0 10px;
+}
+
+.rep {
+    background-image: url(../img/nkar.jpg);
+    height: 515px;
+}
+
+.nkar {
+    background-image: url(../img/nkar2.jpg);
+    width: 607px;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    top: 475px;
+    left: 0;
+}
+
+.cola {
+    position: relative;
+    height: 925px;
+}
+
+.nkar3 {
+    background-image: url(../img/nkar3.jpg);
+    width: 323px;
+    height: 228px;
+    position: absolute;
+    top: 695px;
+    left: 170px;
+}
+
+.nkar4 {
+    background-image: url(../img/nkar4.jpg);
+    width: 323px;
+    height: 228px;
+    position: absolute;
+    top: 695px;
+    left: 522px;
+}
+
+.nkar5 {
+    background-image: url(../img/nkar5.jpg);
+    width: 323px;
+    height: 228px;
+    position: absolute;
+    top: 695px;
+    left: 870px;
+}
+
+.exo {
+    text-align: center;
+    font-family: Exo2;
+    color: #fff;
+    font-size: 42px;
+    padding: 110px 0 30px 0;
+}
+
+.abg {
+    text-align: center;
+    font-family: helveticaneuecyr-roman;
+    color: #fff;
+    font-size: 21px;
+}
+
+.nkar p {
+    font-family: Parangon530C;
+    color: #fff;
+    font-size: 45px;
+    padding: 120px 0 0 120px;
+}
+
+.PAGE {
+    font-family: Futura-Normal;
+    color: #fff;
+    font-size: 46px;
+    margin: 50px 80px 0 30px;
+    border-bottom: 1px solid;
+}
+
+.PAGl {
+    font-family: Exo2;
+    color: #fff;
+    font-size: 44px;
+    margin: 50px 80px 0 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+.PAGo {
+    font-family: Exo2;
+    color: #fff;
+    font-size: 42px;
+    margin: 45px 80px 0 30px;
+    border-bottom: 1px solid;
+}
+
+.rub {
+    width: 134px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 40px 0 0 30px;
+}
+
+.rub a {
+    color: #fff;
+    padding: 6px 25px 6px 25px;
+}
+
+.rob {
+    width: 134px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 40px 0 0 30px;
+}
+
+.rob a {
+    color: #fff;
+    padding: 6px 25px 6px 25px;
+}
+
+.rug {
+    width: 134px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    margin: 40px 0 0 30px;
+}
+.rug a {
+    color: #fff;
+    padding: 6px 25px 6px 25px;
+}
+
+.nkar3 i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 110px;
+}
+
+.rub:hover {
+    border: 2px #00b9e7 solid;
+}
+
+.nkar3:hover i{
+    color: #00b9e7;
+}
+
+.rub:hover .nkar3 i{
+    color: #00b9e7;
+}
+
+.nkar4 i {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 110px;
+}
+
+.nkar4 i:hover{
+    color: #ffcb00;
+}
+
+.nkar4:hover i{
+    color: #ffcb00;
+}
+
+.rob:hover{
+    border: 2px #ffcb00 solid;
+}
+
+.nkar5 i{
+    color: #fff;
+    font-size: 24px;
+    margin-left: 110px;
+}
+
+.nkar5 i:hover{
+    color: #66bf0d;
+}
+
+.nkar5:hover i{
+    color: #66bf0d;
+}
+
+.rug:hover{
+    border: 2px #66bf0d solid;
+}
+
+.lolik{
+    height: 440px;
+    position: relative;
+    padding: 160px 0 0 170px;
+}
+
+.xaxa{
+    font-family: Parangon530C;
+    position: absolute;
+    top: 194px;
+    left: 170px;
+    font-size: 27px;
+}
+
+.haha {
+    font-family: tahoma;
+    color: #c1c1c1;
+    font-size: 70px;
+    margin-left: -45px;
+    font-weight: bold;
+}
+
+.ooo {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.google {
+    position: absolute;
+    top: 130px;
+    right: 310px;
+}
+
+.yndeks {
+    position: absolute;
+    bottom: 65px;
+    right: 310px;
+}
+
+.CTS {
+    position: relative;
+}
+.xcx {
+    background: #303263;
+    height: 105px;
+}
+.OUR {
+    font-family: tahoma;
+    color: #777898;
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.PRO {
+    color: #fff;
+    font-family: Parangon530C;
+    font-size: 24px;
+    position: absolute;
+    top: 45px;
+    left: 555px;
+}
+.oo2 {
+    float: right;
+    width: 651px;
+    height: 388px;
+}
+.oo5 {
+    margin: -4px -4px -8px 0;
+}
+.oo6 {
+    margin-right: -4;
+}
+.oo3 {
+    margin: 0 0 3px 0;
+}
+.oo4 {
+    width: 332px;
+    height: 300px;
+}
+
+.xcx button {
+    background-color: #6a6b8e;
+    width: 215px;
+    height: 55px;
+    border: 1px solid #6a6b8e;
+    border-radius: 19px;
+    position: absolute;
+    bottom: 20px;
+    left: 555px;
+}
+
+.xcx button:hover {
+    background-color: #707192;
+}
+
+.xcx a {
+    color: #fff;
+    font-family: Parangon530C;
+    font-size: 16px;
+}
+
+.pril {
+    position: relative;
+    height: 570px;
+}
+
+.rirl {
+    padding: 160px 0 0 170px;
+}
+
+.hdd {
+    font-family: Parangon530C;
+    position: absolute;
+    top: 195px;
+    left: 170px;
+    font-size: 27px;
+}
+
+.iix {
+    font-family: tahoma;
+    color: #c1c1c1;
+    font-size: 70px;
+    margin-left: -45px;
+    font-weight: bold;
+}
+
+.xii {
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.smogus{
+    position: absolute;
+    top: 65px;
+    right: 0px
+}
+
+.piper {
+    background-image: url(../img/nkarner2.jpg);
+    height: 610px;
+}
+
+.ded {
+    font-family: Parangon530C;
+    text-align: center;
+    color: #ededef;
+    font-size: 43px;
+    padding: 60px 0 55px 0;
+}
+
+.TRA{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.TRA span{
+    color: #ededef;
+    font-family: Parangon530C;
+    font-size: 22px;
+    padding-left: 12px;
+}
+.dest{
+    font-family: Arial;
+    color: #ededef;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.loren{
+    display: inline-grid;
+    width: 335px;
+    height: 271px;
+    padding-left: 110px;
+}
+
+.lore{
+    display: inline-grid;
+    width: 335px;
+    height: 270px;
+    padding: 0 55px 0 55px;
+}
+
+.lorn{
+    display: inline-grid;
+    width: 365px;
+    height: 270px;
+}
+
+.xvx{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.xvx button{
+    background-color: #f6ae48;
+    width: 215px;
+    height: 55px;
+    border: 1px solid #f6ae48;
+    border-radius: 19px;
+}
+
+.xvx a{
+    color: #fff;
+    font-family: Parangon530C;
+    font-size: 16px;
+}
+
+.epik{
+    position: relative;
+    height: 570px;
+}
+
+.erel{
+    font-family: Parangon530C;
+    position: absolute;
+    top: 186px;
+    left: 170px;
+    font-size: 27px;
+}
+
+.eryu{
+    padding: 150px 0 0 170px;
+}
+
+.eryu img{
+    position: absolute;
+    top: 65px;
+    right: 121px;
+}
+
+.ire{
+    font-family: tahoma;
+    color: #c1c1c1;
+    font-size: 70px;
+    margin-left: -45px;
+    font-weight: bold;  
+}
+
+.iru{
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.kofe{
+    background-image: url(../img/kofe.jpg);
+    height: 514px;
+}
+
+.coco{
+    display: inline-grid;
+    padding: 120px 0 0 185px;
+}
+
+.hhgg{
+    font-family: Parangon530C;
+    color: #fff;
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.gghh{
+    color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+footer{
+    background-color: #f6ae48;
+    height: 50px;
+}
